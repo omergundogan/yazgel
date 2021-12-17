@@ -1,0 +1,105 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+  body  {
+	background-color: #009578;
+	margin: 15px;
+	margin-top: 50px;
+} 
+
+.login-form , 
+.login-form * { 
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro' ,sans-serif;
+}
+
+.login-form{ 
+
+	max-width: 350px;
+	margin: 0 auto;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 15px 15px 15px 15px rgba(0, 0 , 0, 0.15);
+	
+}
+
+.login-form__logo-cointainer { 
+	padding: 30px;
+	background: rgba(0, 0, 0, 0.25)
+	
+}
+.login-form__logo{ 
+	display: block;
+	max-width: 125px;
+	margin: 0 auto;
+}
+
+.login-form_content { 
+	padding: 30px;
+	background: #dddddd;
+}
+
+.login-form__header { 
+	margin-bottom: 15px ;
+	text-align: center;
+	color:#ffffff;
+	padding-top: 20px;
+}
+
+.login-form__input {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	border:2px solid #dddddd;
+	background: #ffffff;
+	outline: none;
+	transition: border-color 0.5s;
+}
+
+.login-form__input:focus { 
+	border-color:#333333;
+}
+.login-form__input::placeholder{ 
+	color:#aaaaaa;
+}
+.login-form__button {
+	padding:10px;
+	color: #ffffff;
+	font-weight: bold;
+	background: #009578;
+	width: 100%;
+	border:3px solid #dddddd;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.login-form__button:active {
+	background: #008067;
+}
+
+.login-form__links { 
+	margin-top: 15px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.login-form__link {
+	font-size: 0.9em;
+	color: #d6f0ea;
+	text-decoration: none;
+	display: block;
+	padding-bottom: 17px;
+}
+.login-form__link2 {
+	
+	font-size: 0.9em;
+	color: #d6f0ea;
+	text-decoration: none;
+	border:2px solid #ffffff;
+	padding: 5px;
+}
+.login-form__link2:hover {
+
+	background: #008067;
+}
